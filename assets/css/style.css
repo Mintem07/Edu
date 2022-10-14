@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.hero {
+  margin: 100px 0 60px 0;
+}
+
+.btn-biru {
+  color: #fff;
+  background-color: #1F3068 !important;
+  border-color: #1F3068 !important;
+}
+
+.btn-biru:hover {
+  background-color: #374984 !important;
+  border-color: #374984 !important;
+}
+
+h1 {
+  font-size: 2.8rem !important;
+}
+
+.text-biru {
+  color: #1F3068;
+}
+
+/* .bg-light-blue {
+  background-color: #e1e6f4 !important;
+} */
+
+.img-benefit {
+  width: 328px;
+  height: 420px;
+  border-radius: 14px;
+  background-size: cover;
+  background-image: url("https://images.pexels.com/photos/5999070/pexels-photo-5999070.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+
+.icon-check {
+  margin-top: 14px;
+}
+
+.benefit span {
+  font-size: 1.2rem;
+}
+
+.img-top-teach {
+  width: 100px;
+  max-height: 100px;
+  border-radius: 50%;
+}
+
+.tag-mapel li {
+  background-color: rgb(240, 240, 240);
+  padding: 2px 4px;
+  border-radius: 6px;
+  margin: 0 6px 6px 0;
+}
+
+.feedback {
+  position: relative;
+  height: 320px;
+  padding: 60px;
+  border-radius: 40px 14px 40px 14px;
+  background-color: #dbdfec;
+}
+
+.netizen {
+  position: absolute;
+  left: -80px;
+  bottom: 30px;
+  width: 260px;
+  height: 80px;
+  border-radius: 14px;
+  background-color: #1F3068;
+  color: #fff;
+  box-shadow: -4px 4px 10px rgba(20, 20, 20, 0.4);
+}
+
+.netizen img {
+  width: 60px;
+  border-radius: 50%;
+}
+
+footer {
+  margin-top: 120px;
+}
