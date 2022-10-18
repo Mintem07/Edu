@@ -1,1 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+    <script src="https://kit.fontawesome.com/51bae724c9.js" crossorigin="anonymous"></script>
+
+  <title>Teach | Daftar Guru</title>
+</head>
+<body>
+
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg py-3 fixed-top bg-white shadow-sm">
+    <div class="container d-flex">
+      <a class="navbar-brand" href="#">Teach</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item me-4">
+            <a class="nav-link" href="../index.html">Beranda</a>
+          </li>
+          <li class="nav-item me-4">
+            <a class="nav-link" href="#">Promo</a>
+          </li>
+          <li class="nav-item dropdown me-4">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Kelas
+            </a>
+            <div class="dropdown-menu">
+              <div class="row ms-2 mb-3">
+                <h6 class="text-secondary fw-bold">SD</h6>
+                <ul class="d-flex list-unstyled flex-wrap">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                </ul>
+              </div>
+              <div class="row ms-2 mb-3">
+                <h6 class="text-secondary fw-bold">SMP</h6>
+                <ul class="d-flex list-unstyled">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                </ul>
+              </div>
+              <div class="row ms-2 mb-3">
+                <h6 class="text-secondary fw-bold">SMA</h6>
+                <ul class="d-flex list-unstyled">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item me-4">
+            <a class="nav-link active fw-bold" href="#">Guru</a>
+          </li>
+        </ul>
+        <div class="ms-5">
+          <a class="me-2 px-4 border-0 btn btn-light text-secondary" href="#">Masuk</a>
+          <a class="px-4 border-0 btn btn-primary btn-biru text-white" href="#">Daftar</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main -->
+  <div class="container">
+    <div class="row mt-100">
+      <div class="col-3 side-bar">
+        <h3 class="mb-4">Filter</h3>
+        <hr>
+        <div class="mata-pelajaran mb-4">
+          <h5 class="mb-3">Mata Pelajaran</h5>
+          <ul class="tag-mapel d-flex list-unstyled flex-wrap">
+            <li class="mapel px-2 py-1 me-2 rounded-2 mb-2"><a class="text-decoration-none text-black" href="#">Fisika</a></li>
+            <li class="mapel px-2 py-1 me-2 rounded-2 mb-2"><a class="text-decoration-none text-black" href="#">Biologi</a></li>
+            <li class="mapel px-2 py-1 me-2 rounded-2 mb-2"><a class="text-decoration-none text-black" href="#">Kimia</a></li>
+            <li class="mapel px-2 py-1 me-2 rounded-2 mb-2"><a class="text-decoration-none text-black" href="#">Matematika</a></li>
+            <li class="mapel px-2 py-1 me-2 rounded-2 mb-2"><a class="text-decoration-none text-black" href="#">B. Indo</a></li>
+            <li class="mapel px-2 py-1 me-2 rounded-2 mb-2"><a class="text-decoration-none text-black" href="#">B. Inggris</a></li>
+            <li class="mapel px-2 py-1 me-2 rounded-2 mb-2"><a class="text-decoration-none text-black" href="#">Ekonomi</a></li>
+            <li class="mapel px-2 py-1 me-2 rounded-2 mb-2"><a class="text-decoration-none text-black" href="#">Sosiologi</a></li>
+            <li class="mapel px-2 py-1 me-2 rounded-2 mb-2"><a class="text-decoration-none text-black" href="#">Geografi</a></li>
+          </ul>
+        </div>
+
+        <hr>
+        <div class="kategori mb-4">
+          <h5 class="mb-3">Kategori</h5>
+          <ul class="d-flex list-unstyled flex-wrap">
+            <li class="px-2 py-1 me-2 rounded-2 mb-2 bg-danger bg-opacity-50"><a class="text-decoration-none text-black" href="#">Umum</a></li>
+            <li class="px-2 py-1 me-2 rounded-2 mb-2 bg-success bg-opacity-50"><a class="text-decoration-none text-black" href="#">Private</a></li>
+          </ul>
+
+        </div>
+      </div>
+  
+      <div class="col-9 content">
+        <div class="list-teach">
+          <div class="card align-items-center" style="width: 16rem;">
+            <img src="https://images.unsplash.com/photo-1654110455429-cf322b40a906?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80" class="img-top-teach mt-3" alt="...">
+            <div class="card-body">
+              <h4 class="m-0 fw-semibold text-center">Doffi John</h4>
+              <ul class="tag-mapel d-flex list-unstyled flex-wrap mt-2">
+                <li class="mapel px-2 py-1 me-2 rounded-2">Ekonomi</li>
+                <li class="mapel px-2 py-1 me-2 rounded-2">Matematika</li>
+              </ul>
+              <div class="d-flex align-items-center justify-content-between">
+                <div class="rating d-inline px-2 py-1 rounded-pill bg-warning bg-opacity-50 fw-bold"><i class="fa fa-star" aria-hidden="true"></i> 4.5</div>
+                <a href="#" class="btn btn-biru rounded-pill text-white">Book Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="card align-items-center" style="width: 16rem;">
+            <img src="https://images.unsplash.com/photo-1654110455429-cf322b40a906?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80" class="img-top-teach mt-3" alt="...">
+            <div class="card-body">
+              <h4 class="m-0 fw-semibold text-center">Doffi John</h4>
+              <ul class="tag-mapel d-flex list-unstyled flex-wrap mt-2">
+                <li class="mapel px-2 py-1 me-2 rounded-2">Ekonomi</li>
+                <li class="mapel px-2 py-1 me-2 rounded-2">Matematika</li>
+              </ul>
+              <div class="d-flex align-items-center justify-content-between">
+                <div class="rating d-inline px-2 py-1 rounded-pill bg-warning bg-opacity-50 fw-bold"><i class="fa fa-star" aria-hidden="true"></i> 4.5</div>
+                <a href="#" class="btn btn-biru rounded-pill text-white">Book Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="card align-items-center" style="width: 16rem;">
+            <img src="https://images.unsplash.com/photo-1654110455429-cf322b40a906?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80" class="img-top-teach mt-3" alt="...">
+            <div class="card-body">
+              <h4 class="m-0 fw-semibold text-center">Doffi John</h4>
+              <ul class="tag-mapel d-flex list-unstyled flex-wrap mt-2">
+                <li class="mapel px-2 py-1 me-2 rounded-2">Ekonomi</li>
+                <li class="mapel px-2 py-1 me-2 rounded-2">Matematika</li>
+              </ul>
+              <div class="d-flex align-items-center justify-content-between">
+                <div class="rating d-inline px-2 py-1 rounded-pill bg-warning bg-opacity-50 fw-bold"><i class="fa fa-star" aria-hidden="true"></i> 4.5</div>
+                <a href="#" class="btn btn-biru rounded-pill text-white">Book Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="card align-items-center" style="width: 16rem;">
+            <img src="https://images.unsplash.com/photo-1654110455429-cf322b40a906?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80" class="img-top-teach mt-3" alt="...">
+            <div class="card-body">
+              <h4 class="m-0 fw-semibold text-center">Doffi John</h4>
+              <ul class="tag-mapel d-flex list-unstyled flex-wrap mt-2">
+                <li class="mapel px-2 py-1 me-2 rounded-2">Ekonomi</li>
+                <li class="mapel px-2 py-1 me-2 rounded-2">Matematika</li>
+              </ul>
+              <div class="d-flex align-items-center justify-content-between">
+                <div class="rating d-inline px-2 py-1 rounded-pill bg-warning bg-opacity-50 fw-bold"><i class="fa fa-star" aria-hidden="true"></i> 4.5</div>
+                <a href="#" class="btn btn-biru rounded-pill text-white">Book Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
