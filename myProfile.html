@@ -9,6 +9,28 @@
 
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+  <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="Login/vendor/bootstrap/css/bootstrap.min.css">
+  <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="Login/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+  <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="Login/fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+  <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="Login/vendor/animate/animate.css">
+  <!--===============================================================================================-->	
+    <link rel="stylesheet" type="text/css" href="Login/vendor/css-hamburgers/hamburgers.min.css">
+  <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="Login/vendor/animsition/css/animsition.min.css">
+  <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="Login/vendor/select2/select2.min.css">
+  <!--===============================================================================================-->	
+    <link rel="stylesheet" type="text/css" href="Login/vendor/daterangepicker/daterangepicker.css">
+  <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="Login/css/util.css">
+    <link rel="stylesheet" type="text/css" href="Login/css/main.css">
+  <!--===============================================================================================-->
 
     <script src="https://kit.fontawesome.com/51bae724c9.js" crossorigin="anonymous"></script>
 
@@ -158,8 +180,54 @@
                 </div>
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                   <div class="text-center">
-                    <button type="button" id="submit" name="submit" class="btn btn-abu">Cancel</button>
-                    <button type="button" id="submit" name="submit" class="btn btn-primary btn-biru">Update</button>
+                    
+                    <div class="container-login100-form-btn">
+                      <button type="button" id="submit" name="submit" class="btn btn-abu me-3">Cancel</button>
+                      <button class="btn btn-daftar" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Update
+                      </button>
+          
+                      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Form Pendaftaran</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <form action="">
+                                <div class="wrap-input101 ">
+                                  <input class="input101" type="text" name="nama" placeholder="Nama">
+                                </div>
+          
+                                <div class="wrap-input101 ">
+                                  <input class="input101" type="text" name="nama" placeholder="e-mail">
+                                </div>
+          
+                                <div class="wrap-input101 ">
+                                  <input class="input101" type="text" name="nama" placeholder="telp">
+                                </div>
+          
+                                <div class="wrap-input101 ">
+                                  <input class="input101" type="text" name="nama" placeholder="Alamat">
+                                </div>
+
+                                <div class="wrap-input101 ">
+                                  <input class="input101" type="text" name="nama" placeholder="Tanggal lahir">
+                                </div>
+                              </form>
+                            </div>
+                            <div class="modal-footer" >
+                              <button type="button" class="btn btn-daftar">Update</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                    </div>
+
+                    
+
                   </div>
                 </div>
               </div>
@@ -168,8 +236,6 @@
         </div>
       </div>
     </div>
-    
-    
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   </body>
