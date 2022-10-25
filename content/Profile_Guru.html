@@ -29,7 +29,7 @@
       <div class="col-4">
         <img src="../assets/img/doffy.jpg" class="rounded-4" width="354" alt="">
         <div class="d-grid gap-2 mt-4">
-          <button class="btn btn-lg btn-biru text-white"><a href="#" class="text-decoration-none text-white">Booking Now</a></button>
+          <button class="btn btn-lg btn-biru text-white"  type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Booking Now</button>
         </div>
       </div>
       <div class="col-8 pt-4">
@@ -50,7 +50,7 @@
         <p class="mt-4 mb-2 text-secondary">Alamat:</p>
         <p>Jln. Mawar No. 308 Kec. Mojoagung Jombang</p>
         <h5 class="d-inline-block mt-4 me-3">Ulasan</h5>
-        <div class="rating d-inline-block px-2 py-1 rounded-pill bg-warning bg-opacity-50 fw-bold"><i class="fa fa-star" aria-hidden="true"></i> 4.5</div>
+        <div class="d-inline-block px-2 py-1 rounded-2 bg-warning bg-opacity-50 fw-bold"><i class="fa fa-star" aria-hidden="true"></i> 4.5</div>
         <hr>
         <div class="d-flex justify-content-between gap-4 mt-3">
           <img class="rounded-pill" src="../assets/img/fandi.jpg" width="60" height="60" alt="">
@@ -62,11 +62,50 @@
       </div>
     </div>
 
-    <div class="row mt-4">
-      <div class="col-8">
-        
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Booking</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="mb-3">
+              <h5 class="text-secondary">Mapel:</h5>
+              <input type="checkbox" class="btn-check" name="options-outlined" id="ekonomi" autocomplete="off">
+              <label class="btn btn-outline-primary" for="ekonomi">Ekonomi</label>
+  
+              <input type="checkbox" class="btn-check" name="options-outlined" id="mtk" autocomplete="off">
+              <label class="btn btn-outline-primary" for="mtk">Matematika</label>
+  
+              <input type="checkbox" class="btn-check" name="options-outlined" id="biologi" autocomplete="off">
+              <label class="btn btn-outline-primary" for="biologi">Biologi</label>
+  
+              <input type="checkbox" class="btn-check" name="options-outlined" id="fisika" autocomplete="off">
+              <label class="btn btn-outline-primary" for="fisika">Fisika</label>
+            </div>
+            <div class="mb-3">
+              <h5 class="text-secondary">Jam:</h5>
+              <input type="radio" class="btn-check" name="options-outlined" id="sesi-1" autocomplete="off">
+              <label class="btn btn-outline-primary" for="sesi-1">13.00 - 15.00</label>
+
+              <input type="radio" class="btn-check" name="options-outlined" id="sesi-2" autocomplete="off">
+              <label class="btn btn-outline-primary" for="sesi-2">15.00 - 17.00</label>
+
+              <input type="radio" class="btn-check" name="options-outlined" id="sesi-3" autocomplete="off">
+              <label class="btn btn-outline-primary" for="sesi-3">17.00 - 19.00</label>
+            </div>
+          </div>
+
+          <!-- kirim whatsapp -->
+          <div class="modal-footer justify-content-center">
+            <button type="button" class="btn btn-primary"><a href="https://web.whatsapp.com/send?phone=6285339378894&text=Hallo" class="text-decoration-none text-white" target="_blank">Pesan Sekarang</a></button>
+          </div>
+        </div>
       </div>
     </div>
+
   </div>
 
   <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
